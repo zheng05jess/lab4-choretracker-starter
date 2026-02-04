@@ -1,5 +1,6 @@
 # TODO: SimpleCov required here...
-
+require 'simplecov'
+SimpleCov.start 'rails'
 
 
 ENV["RAILS_ENV"] ||= "test"
