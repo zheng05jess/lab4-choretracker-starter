@@ -25,20 +25,20 @@
           null
         ]
       },
-      "/Users/jessicazheng/Desktop/CMU/67272/lab_04/lab4-choretracker-starter/app/models/child.rb": {
+      "/Users/jessicazheng/Desktop/CMU/67272/lab_04/lab4-choretracker-starter/app/models/task.rb": {
         "lines": [
           1,
-          1,
-          1,
           null,
           1,
           1,
           null,
+          null,
           1,
-          3,
+          1,
           null,
           null,
-          3,
+          null,
+          2,
           2,
           null
         ]
@@ -58,8 +58,20 @@
           null
         ]
       },
-      "/Users/jessicazheng/Desktop/CMU/67272/lab_04/lab4-choretracker-starter/app/models/task.rb": {
+      "/Users/jessicazheng/Desktop/CMU/67272/lab_04/lab4-choretracker-starter/app/models/child.rb": {
         "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
           1,
           null
         ]
@@ -339,6 +351,6 @@
         "branches": {}
       }
     },
-    "timestamp": 1770251101
+    "timestamp": 1770251621
   }
 }
