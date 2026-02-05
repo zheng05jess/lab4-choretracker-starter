@@ -9,6 +9,13 @@ class Child < ApplicationRecord
         first_name + " " + last_name
     end
 
+    def points_earned
+        chores
+        .done
+        .joins(:task)
+        .sum("tasks.points")
+    end
+
     scope :alphabetical, -> { order('last_name, first_name') }
     scope :active, -> { where(active: true) }
 end
